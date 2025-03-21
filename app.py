@@ -75,10 +75,10 @@ app.layout = html.Div([
     ], className="countries-row"),
     
     html.Footer([
-        html.P(["Data Source: Passport Index | Created with ", 
+        html.P(["Data Source: Passport Index | Created with ❤️ using", 
                 html.A("Dash by Plotly", href="https://plotly.com/dash/", target="_blank")
         ]),
-        html.P("© 2025 Passport Power Index")
+        html.P("© 2025 Samuel Musyoka")
     ], className="footer")
 ], className="app-container")
 
